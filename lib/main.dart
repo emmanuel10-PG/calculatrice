@@ -27,7 +27,7 @@ class calculatrices extends StatefulWidget {
   State<calculatrices> createState() => _calculatricesState();
 }
 
-class _calculatricesState extends State<calculatrices> {
+class _calculatricesState extends State<calculatrices>{
 
 
   Widget buildButton(String buttonText, double buttonHeight, Color boutonColor){
@@ -43,7 +43,6 @@ class _calculatricesState extends State<calculatrices> {
                 color: Colors.blueAccent,
                 width: 1,
                 style: BorderStyle.solid
-
             )
 
         ),
@@ -103,9 +102,49 @@ class _calculatricesState extends State<calculatrices> {
 
                           buildButton("C",1, Colors.greenAccent),
                           buildButton("⌫",1, Colors.greenAccent),
-                          buildButton("÷",1, Colors.greenAccent)
+                          buildButton("÷",1, Colors.greenAccent),
 
                     ]),
+                    TableRow(
+                        children: [
+
+                          buildButton("1",1, Colors.greenAccent),
+                          buildButton("2",1, Colors.greenAccent),
+                          buildButton("3",1, Colors.greenAccent),
+
+                        ]),
+                    TableRow(
+                        children: [
+
+                          buildButton("4",1, Colors.greenAccent),
+                          buildButton("5",1, Colors.greenAccent),
+                          buildButton("6",1, Colors.greenAccent),
+
+                        ]),
+                    TableRow(
+                        children: [
+
+                          buildButton("1",1, Colors.greenAccent),
+                          buildButton("2",1, Colors.greenAccent),
+                          buildButton("3",1, Colors.greenAccent),
+
+                        ]),
+                    TableRow(
+                        children: [
+
+                          buildButton(".",1, Colors.greenAccent),
+                          buildButton("0",1, Colors.greenAccent),
+                          buildButton("00",1, Colors.greenAccent),
+
+                        ]),
+                    TableRow(
+                        children: [
+
+                          buildButton("C",1, Colors.greenAccent),
+                          buildButton("⌫",1, Colors.greenAccent),
+                          buildButton("÷",1, Colors.greenAccent),
+
+                        ]),
                   ],
                 ),
               )
@@ -116,3 +155,4 @@ class _calculatricesState extends State<calculatrices> {
     );
   }
 }
+
