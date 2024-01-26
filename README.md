@@ -1,6 +1,6 @@
 # calculatrice
 
-un nouveau projet .
+ projet calculatrice simple additionneuse codé en Flutter  .
 
 ## Getting Started
 
